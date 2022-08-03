@@ -1,0 +1,36 @@
+body {
+				background: wheat;
+				display: flex;
+				flex-direction: row;
+			 flex-wrap: wrap;
+			 justify-content: center;
+			 
+}
+div {
+				width: 100px;
+				height: 100px;
+				border-radius: 10px;
+				margin: 20px;
+				background-color: black;
+				margin-top: 40%;
+				transition: 3s;
+				box-shadow: 2px 2px 2px silver,
+								-2px -2px 2px silver;
+}
+
+#one:hover {
+				transform: rotate(360deg);
+				background-color: red;
+}
+#two:hover {
+				transform: rotate(360deg);
+				background-color: blue;
+}
+#three:hover {
+				transform: rotate(360deg);
+				background-color: green;
+}
+#four:hover {
+				transform: rotate(360deg);
+				background-color: white;
+}
